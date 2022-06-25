@@ -299,7 +299,7 @@ document.getElementById("publicBtn").onclick = () => {
 
 setInterval(() => {
     tau = cookies.pow(0.2)
-    currently_formula = tau.pow(1.095).div(3)
+    currently_formula = tau.pow(1.094).div(3)
     document.getElementById('tau').innerHTML = tau + "\u03C4";
     document.getElementById('public').innerHTML = number_pub + " publication times.";
     document.getElementById('current').innerHTML = "Currently:" + currently;
